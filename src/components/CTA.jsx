@@ -31,7 +31,7 @@ export default function CTA() {
             backgroundImage: 'linear-gradient(90deg, #67e8f9, #a78bfa)'
           }}
         >
-          Ready to Automate Everything?
+          Let’s Build Yours
         </motion.h3>
 
         <motion.p
@@ -39,10 +39,15 @@ export default function CTA() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="mt-4 text-cyan-100/70"
+          className="mt-4 text-cyan-100/75 max-w-3xl mx-auto"
         >
-          Your organization, reimagined as a living network — fast, adaptive, precise.
+          Every business has a different rhythm. We build automations that move with yours.
         </motion.p>
+
+        <div className="mt-6 text-cyan-100/80 space-y-2">
+          <div>→ Tell us what you need automated</div>
+          <div>→ We’ll design your custom AI-powered flow</div>
+        </div>
 
         <motion.a
           href="#contact"
@@ -52,7 +57,7 @@ export default function CTA() {
         >
           <span className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-300 via-sky-300 to-violet-300 blur-md opacity-80 transition-opacity group-hover:opacity-100" />
           <span className="relative rounded-full bg-gradient-to-r from-cyan-400 via-sky-400 to-violet-400 px-8 py-3">
-            <span className="relative z-10">Engage AI Mode</span>
+            <span className="relative z-10">Start Your Flow</span>
           </span>
         </motion.a>
 
